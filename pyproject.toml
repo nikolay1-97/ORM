@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "orm"
+version = "0.1.0"
+description = ""
+authors = ["nikolay1-97 <nikolay111_connect@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.111.0"
+psycopg2-binary = "^2.9.9"
+gunicorn = "^22.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
